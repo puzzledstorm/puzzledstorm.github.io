@@ -13,7 +13,7 @@
     <language>en</language>
     <managingEditor>1470537068@qq.com (puzzled)</managingEditor>
     <webMaster>1470537068@qq.com (puzzled)</webMaster>
-    <copyright>©2022, All Rights Reserved</copyright>
+    <copyright>©2023, All Rights Reserved</copyright>
     
         <atom:link href="https://puzzledstorm.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -39,6 +39,42 @@
         
       
 
+      
+      <item>
+        <title>To be or not to be ,this is a question</title>
+        <link>https://puzzledstorm.github.io/posts/to-be-or-not-to-be-this-is-a-question/</link>
+        <pubDate>Wed, 08 Feb 2023 16:01:59 +0000</pubDate>
+        <author>1470537068@qq.com (puzzled)</author>
+        <atom:modified>Wed, 08 Feb 2023 16:30:11 +0000</atom:modified>
+        <guid>https://puzzledstorm.github.io/posts/to-be-or-not-to-be-this-is-a-question/</guid>
+        <description>2023.02.08 questions 1. 视频编码原理[ffmpeg] 2. I帧，B帧，P帧, GOP是啥 3. yolo v5有多少层 4. 为什么要进行多轮训练，反复训练， 神经网络为什么要多轮训练 5.</description>
+        
+        <dc:creator>puzzled</dc:creator>
+        <media:content url="https://puzzledstorm.github.ioimages/feature1/6.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>从服务器上查找文件然后复制文件到本地机器</title>

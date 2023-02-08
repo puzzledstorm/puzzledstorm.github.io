@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>questions on puzzle&#39;s blog</title>
+    <link>https://puzzledstorm.github.io/tags/questions/</link>
+    <description>Recent content in questions on puzzle&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>1470537068@qq.com (puzzled)</managingEditor>
+    <webMaster>1470537068@qq.com (puzzled)</webMaster>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 08 Feb 2023 16:01:59 +0000</lastBuildDate>
+    
+        <atom:link href="https://puzzledstorm.github.io/tags/questions/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>To be or not to be ,this is a question</title>
+        <link>https://puzzledstorm.github.io/posts/to-be-or-not-to-be-this-is-a-question/</link>
+        <pubDate>Wed, 08 Feb 2023 16:01:59 +0000</pubDate>
+        <author>1470537068@qq.com (puzzled)</author>
+        <atom:modified>Wed, 08 Feb 2023 16:30:11 +0000</atom:modified>
+        <guid>https://puzzledstorm.github.io/posts/to-be-or-not-to-be-this-is-a-question/</guid>
+        <description>2023.02.08 questions 1. 视频编码原理[ffmpeg] 2. I帧，B帧，P帧, GOP是啥 3. yolo v5有多少层 4. 为什么要进行多轮训练，反复训练， 神经网络为什么要多轮训练 5.</description>
+        
+        <dc:creator>puzzled</dc:creator>
+        <media:content url="https://puzzledstorm.github.ioimages/feature1/6.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
