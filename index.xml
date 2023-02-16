@@ -41,6 +41,80 @@
 
       
       <item>
+        <title>Python装饰器</title>
+        <link>https://puzzledstorm.github.io/posts/python-decorator/</link>
+        <pubDate>Thu, 16 Feb 2023 08:19:12 +0000</pubDate>
+        <author>1470537068@qq.com (puzzled)</author>
+        <atom:modified>Thu, 16 Feb 2023 17:43:01 +0800</atom:modified>
+        <guid>https://puzzledstorm.github.io/posts/python-decorator/</guid>
+        <description>装饰器是什么？ 装饰器是可调用的对象，其参数是另一个函数（被装饰的函数）。 装饰器可能会处理被装饰的函数，然后把它返回，或者将其替换成另一个 函数</description>
+        
+        <dc:creator>puzzled</dc:creator>
+        <media:content url="https://puzzledstorm.github.ioimages/feature1/8.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+        
+          
+            
+              <category>questions</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Leetcode</title>
+        <link>https://puzzledstorm.github.io/posts/leetcode/</link>
+        <pubDate>Sat, 11 Feb 2023 09:37:46 +0000</pubDate>
+        <author>1470537068@qq.com (puzzled)</author>
+        <atom:modified>Thu, 16 Feb 2023 09:30:02 +0000</atom:modified>
+        <guid>https://puzzledstorm.github.io/posts/leetcode/</guid>
+        <description>1. 回溯算法 原理 全排列问题，3个数字的全排列。</description>
+        
+        <dc:creator>puzzled</dc:creator>
+        <media:content url="https://puzzledstorm.github.ioimages/feature1/7.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>刷题</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>刷题</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>To be or not to be ,this is a question</title>
         <link>https://puzzledstorm.github.io/posts/to-be-or-not-to-be-this-is-a-question/</link>
         <pubDate>Wed, 08 Feb 2023 16:01:59 +0000</pubDate>
