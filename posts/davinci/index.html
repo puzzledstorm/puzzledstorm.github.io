@@ -1337,7 +1337,7 @@
 <meta name="keywords" content="达芬奇">
 
 <meta name="created" content="2022-03-13T19:04:49&#43;0800">
-<meta name="modified" content="2023-03-12T22:25:53&#43;0800">
+<meta name="modified" content="2023-03-12T22:42:37&#43;0800">
 <meta property="article:published_time" content="2022-03-13T19:04:49&#43;0800">
 
 <meta name="author" content="puzzled">
@@ -1396,7 +1396,7 @@
     "@type": "WebPage",
     "headline": "学习剪辑艺术",
     "datePublished": "2022-03-13T19:04:49+08:00",
-    "dateModified": "2023-03-12T22:25:53+08:00",
+    "dateModified": "2023-03-12T22:42:37+08:00",
     "url" : "https://puzzledstorm.github.io/posts/davinci/",
     "description": "学习一下如何用达芬奇把我拍的大熊猫视频剪出来",
     "keywords": ["达芬奇"],
@@ -1756,7 +1756,7 @@
   
   &nbsp;&middot;&nbsp; <time class="single__info" title="Modified At"> 📝&nbsp;Mar 12, 2023 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;6&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;8&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">👀&nbsp;puzzled</span>
   
@@ -1923,7 +1923,28 @@ Ctrl＋F 全盘   Ctrl＋&#34;＋，—&#34;缩放时间线
 Shift＋Z时间线总览
 Alt＋Shift＋1.2.3 锁定轨道1.2.3  也可以换成F1,F2,F3锁定音频轨道
 </code></pre><p><img src="https://user-images.githubusercontent.com/74460276/224535792-65a365c2-ce56-46eb-aa5b-6b9b38b309ca.png" alt="image" /></p>
-
+<h3 id="软件交互与工程打包httpswwwbilibilicomvideobv1a7411z7pu">软件交互与工程打包<a href="https://www.bilibili.com/video/BV1A7411Z7PU">👀</a></h3>
+<pre tabindex="0"><code>pr转达芬奇调色
+pr-文件--导出--Final cut pto.xml--然后打开达芬奇--项目设置确定都正确--文件--导入时间线--导入aff,edl,xml--找到所需文件（如没有顺利链接：右键选中脱机素材-重新链接选中片段）
+输出：交付面板-pr XML-选择编码（通常prores 422,LT    windows-DNxHR SQ,DNxHR）
+回到pr--导入达芬奇创建新的XML文件（逻辑上所有调色完成素材都会被重新连接，所以套底就直接完成）
+pr转ae
+送到ae：素材右键-使用ae合成替换,或者是在pr导出
+注意：这些交互有一个前提，不在双方软件加插件或复杂转场
+总结：先锁定剪辑，再调色，再套底，最后再做复杂效果
+达芬奇剪辑和ae的交互：
+1.简单：选中片段-交付面板-导出素材-送到ae-再输出（就像视频文件一样）
+2.好多片段：选中片段-交付面板-渲染-多个单独片段-添加到渲染队列
+3.多片段不同位置：选中片段--文件---媒体文件管理--片段-转码（取决于你是否打算统一工程的编码）-位置-保留余量
+媒体文件管理面板：
+1.帮助归纳素材 2.打包所有素材，
+例1.可选多个时间线-移动\复制\转码 2.整个项目-选择所有\已使用文件
+注意：只打包素材，不打包工程文件
+打包工程文件：文件-导出项目文件-drp文件导出
+备份：文件-项目管理器-mediastorm-点击备份按钮手动备份
+若出现问题可按旁边恢复按钮找回数据库
+若用新电脑剪辑：右键数据（local database）-找到文件夹-复制到移动硬盘-达芬奇-新建数据库-链接-选择位置-添加
+</code></pre>
     </article>
     
     
@@ -2647,6 +2668,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#fairlight面板">Fairlight面板</a></li>
         <li><a href="#交付面板">交付面板</a></li>
         <li><a href="#快捷键httpswwwbilibilicomvideobv1ep4y117ka">快捷键<a href="https://www.bilibili.com/video/BV1Ep4y117KA">👀</a></a></li>
+        <li><a href="#软件交互与工程打包httpswwwbilibilicomvideobv1a7411z7pu">软件交互与工程打包<a href="https://www.bilibili.com/video/BV1A7411Z7PU">👀</a></a></li>
       </ul>
     </li>
   </ul>
